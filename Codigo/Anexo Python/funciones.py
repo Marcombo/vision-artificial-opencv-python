@@ -11,5 +11,3 @@ direccion = input("¿Cuál es tu dirección? ")
 telefono = input("¿Cuál es tu número de teléfono? ")
 
 datos(telefono=telefono, nombre=nombre, direccion=direccion)
-
-
