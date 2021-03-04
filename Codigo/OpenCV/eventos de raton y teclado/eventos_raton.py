@@ -13,9 +13,9 @@ cv2.imshow('Eventos raton', img)
 
 def eventos_raton(evento, x, y, flags, parametros):
     if evento == cv2.EVENT_LBUTTONDOWN:
-        cv2.putText(img, "Click izquierdo", (x, y), fuente, escala, color, grosor)
+        cv2.putText(img, "Clic izquierdo", (x, y), fuente, escala, color, grosor)
     elif evento == cv2.EVENT_RBUTTONDOWN:
-        cv2.putText(img, "Click derecho", (x, y), fuente, escala, color, grosor)
+        cv2.putText(img, "Clic derecho", (x, y), fuente, escala, color, grosor)
 
     cv2.imshow('Eventos raton', img)
     
