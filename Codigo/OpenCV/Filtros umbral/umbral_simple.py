@@ -5,11 +5,11 @@ def actualizar_imagen(umbral):
     cv2.imshow('Imagen filtrada', img_umbral)
   
 img = cv2.imread('../imagenes/degradado.jpg', 0)
+cv2.imshow('Imagen original', img)
+
+cv2.createTrackbar('Umbral', 'Imagen original', 0, 255, actualizar_imagen)
 
 actualizar_imagen(0)
-
-cv2.imshow('Imagen original', img)
-cv2.createTrackbar('Umbral', 'Imagen original', 0, 255, actualizar_imagen)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()

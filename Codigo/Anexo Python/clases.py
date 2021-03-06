@@ -24,7 +24,7 @@ class Cliente(Persona):
         print("Nombre del perro: " + self.perro.nombre)
         print("Raza: " + self.perro.raza)
 
-mi_perro = Perro("Rufo", "pastor alemán")
+mi_perro = Perro("Snoopy", "Beagle")
 yo = Cliente("Tomás", 1234, mi_perro)
 yo.mostrarAtributos()
 
